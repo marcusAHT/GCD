@@ -8,8 +8,8 @@ by *subject* and *activity*. We changed the name a bit, in the following way:
 1. *"-"* were replaced by *"_"*
 2. *()* were eliminated
 
-So, for example the final variable that represents the average by subject and mean of the original variable *tBodyAcc-mean()-X* is named *tBodyAcc_mean_X*.
- Similarly, the mean by *subject* and *activity* of *tBodyAcc-std()-X* is *tBodyAcc_std_X*.
+So, for example the final variable that represents the average by *subject* and *activity* of the original variable **tBodyAcc-mean()-X** is named **tBodyAcc_mean_X**.
+ Similarly, the mean by *subject* and *activity* of **tBodyAcc-std()-X** is **tBodyAcc_std_X**.
  Notice, that the last variable is an average of standard deviation. All the final variables are averages, even if they have "std" on their names.
  The "std" comes to indicate that the variable is the mean of standard deviations.
 
