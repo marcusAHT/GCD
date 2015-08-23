@@ -1,6 +1,6 @@
 ## Explanation of variables
-The original variables are those described in ***UCI HAR Dataset/features_info.txt*** and ***UCI HAR Dataset/README.txt***. 
-The complete set of variables names is in ***UCI HAR Dataset/features.txt***. Out of those variables we were asked to only use
+The original variables are those described in [UCI HAR Dataset/features_info.txt](https://github.com/marcusAHT/GCD/blob/master/UCI%20HAR%20Dataset/features_info.txt) and [UCI HAR Dataset/README.txt](https://github.com/marcusAHT/GCD/blob/master/UCI%20HAR%20Dataset/README.txt). 
+The complete set of variables names is in [UCI HAR Dataset/features.txt](https://github.com/marcusAHT/GCD/blob/master/UCI%20HAR%20Dataset/features.txt). Out of those variables we were asked to only use
  the ones related to mean and standard deviation, a total of 66 variables. 
 After filtering out those we merged the train and test data sets, and found the average (mean) for each of the 66 variables, 
 by *subject* and *activity*. We changed the name a bit, in the following way:
@@ -13,7 +13,7 @@ So, for example the final variable that represents the average by *subject* and 
  Notice, that the last variable is an average of standard deviation. All the final variables are averages, even if they have "std" on their names.
  The "std" comes to indicate that the variable is the mean of standard deviations.
 
-The complete mapping of original to final variable names is in the file [Column Name Mapping.txt](GCD/Column Name Mapping.txt). This file can be reproduced using the following code:
+The complete mapping of original to final variable names is in the file [Column Name Mapping.txt](https://github.com/marcusAHT/GCD/blob/master/Column%20Name%20Mapping.txt). This file can be reproduced using the following code:
 
 ```javascript
 colNames<-read.table("./UCI HAR Dataset/features.txt",stringsAsFactors = FALSE,colClasses = c("NULL","character"))[,1]
