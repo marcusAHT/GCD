@@ -5,15 +5,15 @@ You should create one R script called run_analysis.R that does the following
 
 1. Merges the training and the test sets to create one data set
 2. Extracts only the measurements on the mean and standard deviation for each measurement
-    * According to the info available on ***UCI HAR Dataset/features_info.txt*** and ***UCI HAR Dataset/features.txt*** we infer these are the features that include **mean()** or **std()** on their names
+    * According to the info available on [UCI HAR Dataset/features_info.txt](https://github.com/marcusAHT/GCD/blob/master/UCI%20HAR%20Dataset/features_info.txt) and [UCI HAR Dataset/features.txt](https://github.com/marcusAHT/GCD/blob/master/UCI%20HAR%20Dataset/features.txt) we infer these are the features that include **mean()** or **std()** on their names
 3. Uses descriptive activity names to name the activities in the data set
     * The features names are already descriptive, they just have some **"-"** that we changed to **"_"** and the **()**  we eliminated
-    * With this info, no further description of the variable names/meaning is needed at this point, for further detail refer to ***UCI HAR Dataset/features_info.txt*** and ***UCI HAR Dataset/README.txt*** keeping in mind we performed the above mentioned tranformation of names, and the final variables are averages of the originals by activity and subject.
+    * With this info, no further description of the variable names/meaning is needed at this point, for further detail refer to [UCI HAR Dataset/features_info.txt](https://github.com/marcusAHT/GCD/blob/master/UCI%20HAR%20Dataset/features_info.txt) and [UCI HAR Dataset/README.txt](https://github.com/marcusAHT/GCD/blob/master/UCI%20HAR%20Dataset/README.txt) keeping in mind we performed the above mentioned tranformation of names, and the final variables are averages of the originals by activity and subject.
 4. Appropriately labels the data set with descriptive variable names
-    * Here we use the labels in ***UCI HAR Dataset/activity_labels.txt***
+    * Here we use the labels in [UCI HAR Dataset/activity_labels.txt](https://github.com/marcusAHT/GCD/blob/master/UCI%20HAR%20Dataset/activity_labels.txt)
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
     * The data in step **4** is named **tW** for tidy-Wide, no need of tidy narrow on this excercise
-    * The averaged data is named **meanOfMeanAndStdW**
+    * The averaged data is named [meanOfMeanAndStdW](https://github.com/marcusAHT/GCD/blob/master/meanOfMeanAndStdW.txt)
 	
 ## Getting data
 ```javascript
@@ -29,7 +29,7 @@ unzip("UCI HAR Dataset.zip")
 ```
 
 ## Explanation of the cleaning data process 
-All the code for going from raw to tidy data is in **run_analysis.R**, included on this repo. This script runs on **Mac OS X 10.7.5**, and **RStudio Version 0.99.447**. The folder ***UCI HAR Dataset*** is assumed to be on the working directory. 
+All the code for going from raw to tidy data is in [run_analysis.R](https://github.com/marcusAHT/GCD/blob/master/run_analysis.R), included on this repo. This script runs on **Mac OS X 10.7.5**, and **RStudio Version 0.99.447**. The folder [UCI HAR Dataset](https://github.com/marcusAHT/GCD/tree/master/UCI%20HAR%20Dataset) is assumed to be on the working directory. 
 ## Required R packages
 1. dplyr
 2. stringr
