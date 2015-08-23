@@ -10,8 +10,8 @@ by *subject* and *activity*. We changed the name a bit, in the following way:
 
 So, for example the final variable that represents the average by subject and mean of the original variable *tBodyAcc-mean()-X* is named *tBodyAcc_mean_X*.
  Similarly, the mean by *subject* and *activity* of *tBodyAcc-std()-X* is *tBodyAcc_std_X*.
- Notice, that the last variable is an average of standard deviation. All the final variables are averages even if they have "std" on their names.
- The "std" comes to indicate that is the mean of standard deviations.
+ Notice, that the last variable is an average of standard deviation. All the final variables are averages, even if they have "std" on their names.
+ The "std" comes to indicate that the variable is the mean of standard deviations.
 
 The complete mapping of original to final variable names is in the file ***Column Name Mapping.txt***. This file can be reproduced using the following code:
 
