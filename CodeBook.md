@@ -13,7 +13,7 @@ So, for example the final variable that represents the average by *subject* and 
  Notice, that the last variable is an average of standard deviation. All the final variables are averages, even if they have "std" on their names.
  The "std" comes to indicate that the variable is the mean of standard deviations.
 
-The complete mapping of original to final variable names is in the file ***Column Name Mapping.txt***. This file can be reproduced using the following code:
+The complete mapping of original to final variable names is in the file [Column Name Mapping.txt](GCD/Column Name Mapping.txt). This file can be reproduced using the following code:
 
 ```javascript
 colNames<-read.table("./UCI HAR Dataset/features.txt",stringsAsFactors = FALSE,colClasses = c("NULL","character"))[,1]
