@@ -8,7 +8,7 @@ You should create one R script called run_analysis.R that does the following
     * According to the info available on ***UCI HAR Dataset/features_info.txt*** and ***UCI HAR Dataset/features.txt*** we infer these are the features that include **mean()** or **std()** on their names
 3. Uses descriptive activity names to name the activities in the data set
     * The features names are already descriptive, they just have some **"-"** that we changed to **"_"** and the **()**  we eliminated
-    * With this info, no further description of the variable names/meaning is needed at this point, for further detail refer to ***UCI HAR Dataset/features_info.txt*** and ***UCI HAR Dataset/README.txt*** keeping in mind we performed the above mentioned tranformation of names 
+    * With this info, no further description of the variable names/meaning is needed at this point, for further detail refer to ***UCI HAR Dataset/features_info.txt*** and ***UCI HAR Dataset/README.txt*** keeping in mind we performed the above mentioned tranformation of names, and the final variables are averages of the originals by activity and subject.
 4. Appropriately labels the data set with descriptive variable names
     * Here we use the labels in ***UCI HAR Dataset/activity_labels.txt***
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
